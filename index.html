@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Satisfy&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+    <link rel="stylesheet" href="Assets/CSS/scroll-top-bottom.css">
+    <title>UIU MID - December 2024</title>
+</head>
+
+<body>
+    <div id="preloader">
+        <span class="loader"></span>
+        <div class="gradient-text">Mid Schedule</div>
+    </div>
+
+    <div id="content-preload" class="fadeIn">
+        <div class="container">
+            <h1 class="gradient-text">Mid Exam Schedule</h1>
+            <p>[Only for Section - C/AC]</p>
+            <form id="examForm">
+                <input type="text" id="rollNumber" placeholder="Enter your Student ID: 0112430083" required>
+                <button type="button" onclick="showExamDetails()">View Schedule</button>
+            </form>
+
+            <div id="examDetails"></div>
+            <div id="details"></div>
+        </div>
+        <p class="disclaimer">
+            Disclaimer:<br>Please note that the exam schedule provided here is for reference purposes only. Students
+            are strongly advised to verify their exam details, including dates, times, and room number from the official
+            university published schedule to ensure accuracy. While every effort has been made to provide correct
+            and up-to-date information, the university's official records take precedence. The university is not
+            responsible for any discrepancies or issues that may arise due to reliance on this tool. Students are
+            advised to cross-check their individual exam schedules regularly and ensure they are fully prepared.
+        </p>
+        <div class="footer-container">
+            <script type=module src="Assets/Scripts/footer.js"></script>
+            <my-footer></my-footer>
+        </div>
+    </div>
+    <script src="Assets/Scripts/preloader.js"></script>
+    <script src="Assets/Scripts/script.js"></script>
+</body>
+
+</html>

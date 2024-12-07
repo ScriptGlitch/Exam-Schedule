@@ -1,0 +1,32 @@
+[
+    {
+        "subjectCode": "ENG 1011",
+        "subjectName": "English I",
+        "section": "AC",
+        "instructor": "Saheeh Shafi (SSh)",
+        "date": "December 14, 2024",
+        "time": "09:00 AM - 11:00 AM",
+        "room1": { "range": "0112330241-0112430083", "number": "604" },
+        "room2": { "range": "0112430084-0112430731", "number": "605" }
+    },
+    {
+        "subjectCode": "BDS 1201",
+        "subjectName": "History of the Emergence of Bangladesh",
+        "section": "AC",
+        "instructor": "Ms. Salma Begum (SaB)",
+        "date": "December 21, 2024",
+        "time": "09:00 AM - 11:00 AM",
+        "room1": { "range": "011222234-0112430082", "number": "308" },
+        "room2": { "range": "0112430083-0112430731", "number": "309" }
+    },
+    {
+        "subjectCode": "CSE 2213",
+        "subjectName": "Discrete Mathematics",
+        "section": "C",
+        "instructor": "Rubaiya Rahtin Khan (RRK)",
+        "date": "December 17, 2024",
+        "time": "11:30 AM - 01:30 PM",
+        "room1": { "range": "0112230345-0112430079", "number": "601" },
+        "room2": { "range": "0112430080-0112430744", "number": "602" }
+    }
+]
